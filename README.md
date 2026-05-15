@@ -16,10 +16,14 @@ Current lecture files:
 - `INFS7450_Week5.pdf`
 - `INFS7450_Week6.pdf`
 - `INFS7450_Week7.pdf`
+- `INFS7450_Week8.pdf`
+- `INFS7450_Week9.pdf`
+- `INFS7450_Week10.pdf`
+- `INFS7450_Week11.pdf`
 
-These files cover graph basics, centrality measures, network properties, assortativity, and information diffusion.
+These files now cover graph basics, centrality measures, network properties, assortativity, information diffusion, community detection, link prediction, traditional graph machine learning, and node embedding / graph representation learning.
 
-中文：目前 lecture 已整理到 Week 7，内容包括图基础、中心性指标、网络整体性质、同配性、信息扩散等。
+中文：目前 lecture 已整理到 Week 11，内容包括图基础、中心性指标、网络整体性质、同配性、信息扩散、社区检测、链接预测、传统图机器学习、节点嵌入等。
 
 ### Past Exam Papers
 
@@ -39,7 +43,7 @@ These papers are used to identify high-frequency exam patterns, but the study pl
 
 Main study guide:
 
-- `INFS7450_Study_Guide_Week2-7.md`
+- `INFS7450_Exam_Revision_Guide_EN_CN.md`
 
 This is the main bilingual revision document. It includes:
 
@@ -50,16 +54,22 @@ This is the main bilingual revision document. It includes:
 - worked formula examples
 - exam-targeted notes
 - predictions for likely exam topics
-- placeholders for Week 8 to Week 13 updates
+- placeholders for Week 12 to Week 13 updates
 
-中文：这是主要复习讲义，包含单元划分、重点词汇、概念解释、公式、例题演示、考试重点、预测考点，以及 Week 8 到 Week 13 的后续更新位置。
+中文：这是新的主要复习讲义，所有内容都按“英文内容 + 中文翻译”的格式重写，包含单元划分、重点词汇、概念解释、公式、例题演示、考试重点、预测考点，以及 Week 12 到 Week 13 的后续更新位置。
+
+Previous study guide:
+
+- `INFS7450_Study_Guide_Week2-7.md`
+
+中文：旧版讲义保留作参考，内容已经更新到 Week 11，但新版 `INFS7450_Exam_Revision_Guide_EN_CN.md` 是当前优先使用版本。
 
 ## Recommended Study Workflow
 
 Use the materials in this order:
 
 1. Read the relevant lecture slides.
-2. Read the matching unit in `INFS7450_Study_Guide_Week2-7.md`.
+2. Read the matching unit in `INFS7450_Exam_Revision_Guide_EN_CN.md`.
 3. Memorise the key vocabulary and formulas.
 4. Work through the example calculations.
 5. Attempt related past exam questions.
@@ -78,7 +88,7 @@ Use the materials in this order:
 
 ## Current High-Priority Topics
 
-For Week 2 to Week 7, prioritise:
+For Week 2 to Week 11, prioritise:
 
 - graph representation
 - degree distribution
@@ -101,8 +111,18 @@ For Week 2 to Week 7, prioritise:
 - Independent Cascade Model
 - herd behavior
 - information cascade
+- community detection
+- ratio cut and normalized cut
+- modularity and spectral clustering
+- link prediction metrics
+- traditional graph ML feature engineering
+- graphlets and graph kernels
+- node embedding
+- encoder-decoder framework
+- shallow embeddings
+- random-walk-based embeddings
 
-中文：Week 2 到 Week 7 的核心目标是把图计算、中心性、网络性质、同配性和信息扩散这些基础内容练到可以手算和英文解释。
+中文：Week 2 到 Week 11 的核心目标是把图计算、中心性、网络性质、同配性、信息扩散、社区检测、链接预测、传统图机器学习和节点嵌入这些内容练到可以手算、比较和英文解释。
 
 ## Exam Preparation Strategy
 
@@ -132,7 +152,7 @@ Suggested update process:
 5. Map the new topic to past exam patterns.
 6. Add predictions for this year's exam.
 
-中文：后续新增 Week 8 到 Week 13 的 PPT、quiz 或 tutorial 后，优先更新现有 study guide，不要把笔记分散到很多文件里。
+中文：后续新增 Week 12 到 Week 13 的 PPT、quiz 或 tutorial 后，优先更新现有 study guide，不要把笔记分散到很多文件里。
 
 ## File Naming
 
@@ -140,10 +160,12 @@ Recommended naming style for future files:
 
 - `INFS7450_Week8.pdf`
 - `INFS7450_Week9.pdf`
+- `INFS7450_Week10.pdf`
+- `INFS7450_Week11.pdf`
+- `INFS7450_Week12.pdf`
 - `INFS7450_Quiz1.pdf`
 - `INFS7450_Tutorial_Week8.pdf`
 - `INFS7450_Error_Log.md`
 - `INFS7450_Formula_Sheet.md`
 
 中文：后续文件名尽量保持统一，这样方便继续自动整理、提取考点和更新复习计划。
-
